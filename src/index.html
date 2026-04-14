@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment 3 - Landing Page - Tailwind</title>
+    <title>challenge - 3 - Landing Page - Tailwind - by yuza </title>
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body class="bg-black font-Inter box-border m-0 p-0">
-    <!-- ========== NAVBAR ========== -->
+
+        <!-- ========== NAVBAR ========== -->
     <header>
       <nav
         class="flex w-full h-16 md:h-21 md:peer-checked:h-21 border-b-black/60 justify-between items-center py-6 px-4 md:px-10 md:peer-checked:px-10 lg:px-35 lg:peer-checked:px-35 bg-[rgba(0,0,0,0.6)] backdrop-blur-2xl fixed top-0 z-40"
@@ -20,7 +21,8 @@
             ><span>.</span></a
           >
         </div>
-        <!-- Hamburger -->
+
+                <!-- Hamburger -->
         <input type="checkbox" id="menu-toggle" class="hidden peer" />
         <label
           id="overlay"
@@ -41,19 +43,19 @@
             class="flex flex-col md:flex-row md:peer-checked:flex-row list-none gap-3"
           >
             <li class="menu-li">
-              <a class="menu-li-a" href="#about">About</a>
+              <a class="menu-li-a text-[rgb(253,253,253)]" href="#about">About</a>
             </li>
             <li class="menu-li">
-              <a class="menu-li-a" href="#service">Service</a>
+              <a class="menu-li-a text-[rgb(253,253,253)]" href="#service">Service</a>
             </li>
             <li class="menu-li">
-              <a class="menu-li-a" href="#our-work">Our Work</a>
+              <a class="menu-li-a text-[rgb(253,253,253)]" href="#our-work">Our Work</a>
             </li>
-            <li class="menu-li"><a class="menu-li-a" href="#team">Team</a></li>
+            <li class="menu-li text-[rgb(253,253,253)]"><a class="menu-li-a" href="#team">Team</a></li>
           </ul>
         </div>
         <button
-          class="hidden md:flex btn h-12 md:h-11 max-w-90.25 md:max-w-40 min-w-40 w-90.25 md:w-40 z-10 peer-checked:flex peer-checked:min-w-90.25 md:peer-checked:min-w-40 peer-checked:fixed md:peer-checked:relative peer-checked:top-66 md:peer-checked:top-0 peer-checked:-left-16 md:peer-checked:left-0 peer-checked:mr-auto md:peer-checked:mr-0 group"
+          class="text-[rgb(253,253,253)] hidden md:flex btn h-12 md:h-11 max-w-90.25 md:max-w-40 min-w-40 w-90.25 md:w-40 z-10 peer-checked:flex peer-checked:min-w-90.25 md:peer-checked:min-w-40 peer-checked:fixed md:peer-checked:relative peer-checked:top-66 md:peer-checked:top-0 peer-checked:-left-16 md:peer-checked:left-0 peer-checked:mr-auto md:peer-checked:mr-0 group"
         >
           <a class="btn-a" href="#contact-us">Contact Us</a>
         </button>
@@ -70,7 +72,7 @@
       </nav>
     </header>
 
-    <!-- ========== MAIN BODY ========== -->
+      <!-- ========== MAIN BODY ========== -->
     <main>
       <!-- ========== HERO SECTION ========== -->
       <section
@@ -98,8 +100,8 @@
             </p>
           </div>
 
-          <button class="flex btn h-12 max-w-88.5 md:max-w-75 group">
-            <a class="btn-a" href="#contact-us">Let's Talk</a>
+          <button class="text-[rgb(253,253,253)]flex btn h-12 max-w-88.5 md:max-w-75 group">
+            <a class="btn-a " href="#contact-us">Let's Talk</a>
           </button>
         </div>
         <div
@@ -135,8 +137,7 @@
           >.
         </p>
       </section>
-
-      <!-- ========== WHAT WE DO SECTION ========== -->
+           <!-- ========== WHAT WE DO SECTION ========== -->
       <section
         id="service"
         class="section-layout px-4 md:px-10 lg:px-35 gap-6 md:gap-11 lg:gap-16"
@@ -236,7 +237,7 @@
             <div class="website">
               <img
                 class="website_image1"
-                src="../assets/icons/CMS.png"
+                src="../assets/icons/Landing Page.png"
                 alt="CMS icon"
               />
             </div>
@@ -249,8 +250,7 @@
           </div>
         </div>
       </section>
-
-      <!-- ========== OUR WORK SECTION ========== -->
+           <!-- ========== OUR WORK SECTION ========== -->
       <section
         id="our-work"
         class="section-layout px-5 md:px-10 lg:px-35 gap-6 md:gap-11 lg:gap-16"
@@ -286,8 +286,7 @@
           </div>
         </div>
       </section>
-
-      <!-- ========== MEET THE TEAM SECTION ========== -->
+           <!-- ========== MEET THE TEAM SECTION ========== -->
       <section
         id="team"
         class="section-layout px-5 md:px-10 lg:px-35 gap-8 md:gap-11 lg:gap-16"
@@ -355,8 +354,7 @@
           </div>
         </div>
       </section>
-
-      <!-- ========== LET'S COLLABORATE SECTION ========== -->
+     <!-- ========== LET'S COLLABORATE SECTION ========== -->
       <section
         id="contact-us"
         class="flex pt-10 md:pt-15 lg:pt-20 w-full flex-col justify-center items-center pb-10 md:pb-30 px-5 md:px-10 lg:px-35 gap-6 md:gap-11 lg:gap-16"
@@ -406,6 +404,7 @@
       </section>
     </main>
 
+
     <!-- ========== FOOTER ========== -->
     <footer
       class="flex justify-center content-center border-t border-solid border-text-[rgb(24,29,39)] py-6 px-2 gap-2"
@@ -417,5 +416,4 @@
       </p>
     </footer>
   </body>
-</html>
 </html>
